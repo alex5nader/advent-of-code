@@ -12,9 +12,5 @@ path = "prob01/a.rs"
 name = "prob_01b"
 path = "prob01/b.rs"
 
-[[bin]]
-name = "prob_01_generic"
-path = "prob01/generic.rs"
-
 [dependencies]
 itertools = "0.9.0"
