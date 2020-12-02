@@ -1,0 +1,20 @@
+[package]
+name = "advent_of_code_2020"
+version = "0.1.0"
+authors = ["Alex Habich <me@alexnader.dev>"]
+edition = "2018"
+
+[[bin]]
+name = "prob_01a"
+path = "prob01/a.rs"
+
+[[bin]]
+name = "prob_01b"
+path = "prob01/b.rs"
+
+[[bin]]
+name = "prob_01_generic"
+path = "prob01/generic.rs"
+
+[dependencies]
+itertools = "0.9.0"
