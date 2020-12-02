@@ -5,20 +5,12 @@ authors = ["Alex Habich <me@alexnader.dev>"]
 edition = "2018"
 
 [[bin]]
-name = "prob_01a"
-path = "prob01/a.rs"
+name = "prob01"
+path = "prob01/solution.rs"
 
 [[bin]]
-name = "prob_01b"
-path = "prob01/b.rs"
-
-[[bin]]
-name = "prob_02a"
-path = "prob02/a.rs"
-
-[[bin]]
-name = "prob_02b"
-path = "prob02/b.rs"
+name = "prob02"
+path = "prob02/solution.rs"
 
 [dependencies]
 itertools = "0.9.0"
