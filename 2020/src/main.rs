@@ -1,6 +1,6 @@
-mod prob09;
+mod prob10;
 
-use prob09::solve;
+use prob10::solve;
 
 fn main() {
     solve();
