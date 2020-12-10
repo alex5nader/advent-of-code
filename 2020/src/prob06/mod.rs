@@ -2,7 +2,7 @@ use itertools::Itertools;
 
 const INPUT: &[&[&[u8]]] = include!("input");
 
-fn main() {
+pub fn solve() {
     let any_yes_count = INPUT.iter()
         .map(|g| {
             g.iter()

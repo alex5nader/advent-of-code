@@ -11,7 +11,7 @@ macro_rules! checks {
 
 const INPUT: &[&[(&'static str, &'static str)]] = include!("input");
 
-fn main() {
+pub fn solve() {
     let valid_ecl = vec!["amb", "blu", "brn", "gry", "grn", "hzl", "oth"].into_iter().collect::<HashSet<_>>();
 
     fn in_range(s: &str, min: i64, max: i64) -> bool {

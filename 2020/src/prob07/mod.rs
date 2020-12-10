@@ -2,7 +2,7 @@ use std::collections::{HashMap, HashSet};
 
 const INPUT: &[&str] = include!("input");
 
-fn main() {
+pub fn solve() {
     // container -> contained -> amount contained
     let mut contains: HashMap<&str, HashMap<&str, usize>> = HashMap::new();
 

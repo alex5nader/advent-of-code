@@ -1,6 +1,6 @@
 const INPUT: [&'static str; 323] = include!("input");
 
-fn main() {
+pub fn solve() {
     let map = INPUT.iter().map(|s| s.chars().collect::<Vec<_>>()).collect::<Vec<_>>();
 
     let w =  (&map[0]).len();

@@ -3,7 +3,7 @@ use itertools::Itertools;
 
 const INPUT: &[i64] = include!("input");
 
-fn main() {
+pub fn solve() {
     let target = {
         let mut start = 0;
 

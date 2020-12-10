@@ -11,7 +11,7 @@ fn read_line<I: Iterator<Item=u8>>(input: &mut I) -> Result<(usize, usize, char,
     Ok((min, max, target, passwd.chars().collect()))
 }
 
-fn main() {
+pub fn solve() {
     let mut input = INPUT.iter().cloned();
 
     let mut valid_a_count = 0;

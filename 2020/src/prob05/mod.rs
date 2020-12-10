@@ -20,7 +20,7 @@ fn to_id((row, col): (usize, usize)) -> usize {
     row * 8 + col
 }
 
-fn main() {
+pub fn solve() {
     let possible_ids = (0..=127).cartesian_product(0..=7)
         .map(to_id)
         .collect::<HashSet<_>>();

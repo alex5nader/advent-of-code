@@ -4,7 +4,7 @@ use std::cmp::Ordering;
 
 const INPUT: &[u64] = include!("input");
 
-fn main() {
+pub fn solve() {
     let target = {
         let mut start = 0;
 

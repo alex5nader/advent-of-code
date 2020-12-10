@@ -4,41 +4,6 @@ version = "0.1.0"
 authors = ["Alex Habich <me@alexnader.dev>"]
 edition = "2018"
 
-[[bin]]
-name = "prob01"
-path = "prob01/solution.rs"
-
-[[bin]]
-name = "prob02"
-path = "prob02/solution.rs"
-
-[[bin]]
-name = "prob03"
-path = "prob03/solution.rs"
-
-[[bin]]
-name = "prob04"
-path = "prob04/solution.rs"
-
-[[bin]]
-name = "prob05"
-path = "prob05/solution.rs"
-
-[[bin]]
-name = "prob06"
-path = "prob06/solution.rs"
-
-[[bin]]
-name = "prob07"
-path = "prob07/solution.rs"
-
-[[bin]]
-name = "prob08"
-path = "prob08/solution.rs"
-
-[[bin]]
-name = "prob09"
-path = "prob09/solution.rs"
 
 [dependencies]
 itertools = "0.9.0"

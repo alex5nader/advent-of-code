@@ -49,7 +49,7 @@ fn sim(insts: &Vec<Inst>) -> Result<i64, i64> {
     }
 }
 
-fn main() {
+pub fn solve() {
     let mut insts = {
         let mut input = INPUT.iter().cloned();
 
