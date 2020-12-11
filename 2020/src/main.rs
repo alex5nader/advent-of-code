@@ -1,6 +1,9 @@
-mod prob10;
+mod vec2d;
 
-use prob10::solve;
+#[path = "prob11/mod.rs"]
+mod problem;
+
+use problem::solve;
 
 fn main() {
     solve();
