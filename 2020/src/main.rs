@@ -1,6 +1,6 @@
 mod vec2d;
 
-#[path = "prob11/mod.rs"]
+#[path = "prob12/mod.rs"]
 mod problem;
 
 use problem::solve;

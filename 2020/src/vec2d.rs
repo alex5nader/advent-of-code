@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 use std::ops::{Deref, DerefMut, Index, IndexMut};
 use std::iter::FromIterator;
 
